@@ -8,6 +8,7 @@
         <h1>Соответствие графемы и цвета</h1>
         <p>Выберите пожалуйста ваше соответствие графемы и цвета и по желанию укажите имя и комментарий.</p>
         <p>Для выбора цвета достаточно щелкнуть на символ</p>
+        <p>Не забывайте нажать на <button type="button" onclick="$('#mainform').submit();" class="btn btn-default">Отправить</button></p>
       </div>
     </div>
 <form id="mainform" method="POST" action="/save/">
